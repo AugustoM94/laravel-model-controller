@@ -9,7 +9,36 @@ $fa-font-path: "../webfonts" !default;
 
 @import '~bootstrap/scss/bootstrap';
 
-h1{
-    color:$text-color;
+header img{
+width: 100px;
+}
+
+header img:first-child{
+width: 200px;
+}
+
+#movie-content .card{
+width: 400px;
+}
+
+#book img{
+width: 250px;
+}
+.movie {
+background-image: url(https://c.tenor.com/79MQ41o5dSUAAAAC/cine.gif);
+background-size: contain;
+}
+.book{
+background-image: url(https://i.pinimg.com/originals/c2/f8/f8/c2f8f8e7fe897ae8d5f54aa284492127.gif);
+background-size: cover;
+
+}
+a{
+color: black;
+text-decoration: none;
+}
+
+#home img{
+width: 100%;
 }
 
